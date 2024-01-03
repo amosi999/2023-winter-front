@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>password</title>
+</head>
+<body>
+    <h3>document.write()로 표만들기</h3>
+    <hr>
+    <script>
+        let password="";
+
+        do {
+            password = prompt("암호를 대라", "암호");
+            if (password == "kyonggi")
+                break;
+        } while(true);
+        document.write("통과!");
+    </script>
+</body>
+</html>
